@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  },
+  "name": "login---templete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/styles/main.sass dist/styles/main.css",
+    "sass:watch": "sass --watch src/styles:dist/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

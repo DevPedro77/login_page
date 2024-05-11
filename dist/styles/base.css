@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Sans Mono", monospace;
+}
+
+body {
+  background-image: url("/src/imagens/background.jpg");
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+/*# sourceMappingURL=base.css.map */
