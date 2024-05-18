@@ -20,13 +20,8 @@
       <div class="col-md-12 container_form">
         <form class="form_main">
           <h1 class="title">Login</h1>
-          <div class="text-center mt-3">
-            <button class="btn btn-primary" type="button">
-              <i class="bi bi-google me-3"></i>Sign in with Google
-            </button>
-          </div>
           <label for="email_address">Email Address</label>
-          <input type="email" id="email_address" class="form_input" required>
+          <input type="email" id="email_address" class="form_input" required oninput="mascaraEmail(this)">
           <label for="password">Password</label>
           <a href="#" class="forgot_password_link">Fogot Password?</a>
           <input type="password" id="password" class="form_input is-error" required>
@@ -39,6 +34,6 @@
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/src/scripts/main.js"></script>
+  <script src="./dist/scripts/main.js"></script>
 </body>
 </html>
