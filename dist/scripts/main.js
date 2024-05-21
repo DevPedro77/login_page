@@ -1,5 +1,1 @@
-function mascaraEmail (input){
-  let valor = input.value.replace(/[^\w.-@]/g, '');
-
-  input.value = valor;
-}
+function mascaraEmail(a){var e=a.value.replace(/[^\w.-@]/g,"");a.value=e}
